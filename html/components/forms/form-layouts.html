@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../../../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <!-- Page Title  -->
+    <title>Form Layouts - General | DashLite Admin Template</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="./assets/css/dashlite.css?ver=2.5.0">
+    <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=2.5.0">
+</head>
+
+<body class="nk-body bg-lighter npc-default has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+            <!-- sidebar @s -->
+
+            <!-- sidebar @e -->
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <!-- main header @s -->
+                <div class="nk-header is-light">
+                    <div class="container-fluid py-3">
+                      <div class="card-title-group row-cols-md-3">
+                        <!-- <div class="navbar"> -->
+                        <div>
+                          <img style="width: 30px; " src="./assets/images/pencom_big.png" />
+                        </div>
+                        <div>
+                          <ul class="row nk-header-center d-none d-lg-flex">
+                            <li class="mx-4">Home</li>
+                            <li class="mx-4">About</li>
+                            <li class="mx-4">FAQ</li>
+                            <li class="mx-4">Contact Us</li>
+                          </ul>
+                          <!-- </div> -->
+                        </div>
+                        <div>
+                          <ul class="nk-tb-actions">
+                            <!-- <li class="mx-4">Login</li> -->
+                            <li class="mx-4 btn btn-lg btn-info">Logout</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div><!-- .container-fliud -->
+                  </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <div class="components-preview wide-md mx-auto">
+                                    <div class="nk-block-head nk-block-head-lg wide-sm">
+
+
+                                    </div><!-- .nk-block -->
+                                    <div class="nk-block nk-block-lg">
+                                        <!-- Alert -->
+                                        <!-- <div class="alert alert-fill alert-danger alert-dismissible alert-icon">
+                                            <em class="icon ni ni-cross-circle"></em> <strong>Proceed failed</strong>!
+                                            Some field(s) are empty. <button class="close"
+                                                data-dismiss="alert"></button>
+                                        </div> -->
+
+                                        <!-- Alert End -->
+                                        <div class="nk-block-head">
+                                            <div class="nk-block-head-content">
+                                                <h4 class="title nk-block-title">Verify your Identity in 3 easy steps
+                                                </h4>
+                                                <div class="nk-block-des">
+                                                    <p>We verify your identity to make sure you are you not someone
+                                                        prentending to be you.
+                                                        Verifying your identity also allows you to access services of
+                                                        PENCOM.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="row g-gs">
+                                            <div class="col-lg-6">
+
+                                                <!-- Verify Identity Begin -->
+                                                <div id="firstCard" class="card">
+                                                    <div class="card-inner">
+                                                        <div class="card-head">
+                                                            <h5 class="card-title">We need to verify your identity</h5>
+                                                        </div>
+                                                        <form action="#" onsubmit="event.preventDefault()" class="gy-3">
+                                                            <div class="row g-3 align-center">
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Enter
+                                                                            your RSA PIN</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-01"
+                                                                                placeholder="PEN1124522451">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Enter
+                                                                            your NIN</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="45217896325">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- <div class="add-picture" data-toggle="modal"
+                                                                    data-target="#smart-camera">
+                                                                    <p class="mb-0">Click here to add your photo</p>
+                                                                    <i id="add-picture" class="fas fa-3x fa-camera"></i>
+                                                                </div> -->
+                                                                <smart-camera-web capture-id style="width: 100%;">
+                                                                </smart-camera-web>
+
+                                                            </div>
+                                                            <div class="row g-3">
+                                                                <div class="col-lg-7 offset-lg-5" style="
+                                                                margin-left: 0px !important;
+                                                            ">
+                                                                    <div class="form-group mt-2">
+                                                                        <button type="submit" id="firstStage"
+                                                                            class="btn btn-lg btn-primary">Proceed</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <!-- Verify Identity End -->
+
+
+                                                <div id="secondCard" class="card mt-0 d-none">
+                                                    <div class="card-inner px-0">
+                                                        <div class="card-head px-4">
+                                                            <h5 class="card-title">Contributors Personal Details</h5>
+                                                        </div>
+                                                        <form action="#" onsubmit="event.preventDefault()"
+                                                            class="gy-3 scroll-y">
+                                                            <div class="row g-3 align-center">
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Title</label>
+                                                                        <div class="form-control-wrap ">
+                                                                            <div class="form-control-select">
+                                                                                <select class="form-control"
+                                                                                    id="default-06">
+                                                                                    <option value="default_option">
+                                                                                        Select Option</option>
+                                                                                    <option value="Mr">
+                                                                                        Mr</option>
+                                                                                    <option value="Mrs">
+                                                                                        Mrs</option>
+                                                                                    <option value="Miss">
+                                                                                        Miss</option>
+                                                                                    <option value="Ms">
+                                                                                        Ms</option>
+
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">First
+                                                                            Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="First Name">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Middle Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="Middle Name">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Surname</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Surname">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Maiden/Former Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="Maiden/Former Name">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="Gender">Gender</label>
+                                                                        <div class="g-4 align-center flex-wrap">
+                                                                            <div class="g">
+                                                                                <div
+                                                                                    class="custom-control custom-control-sm custom-radio mr-2">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        name="radioSize"
+                                                                                        id="customRadio7">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio7">Male</label>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="custom-control custom-control-sm custom-radio mr-2">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        name="radioSize"
+                                                                                        id="customRadio8">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio8">Female</label>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="custom-control custom-control-sm custom-radio mr-2">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        name="radioSize"
+                                                                                        id="customRadio9">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio9">Others</label>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Marital Status</label>
+                                                                        <div class="form-control-wrap ">
+                                                                            <div class="form-control-select">
+                                                                                <select class="form-control"
+                                                                                    id="default-06">
+                                                                                    <option value="default_option">
+                                                                                        Select Option</option>
+                                                                                    <option value="MD">
+                                                                                        Married</option>
+                                                                                    <option value="SG">
+                                                                                        Single</option>
+                                                                                    <option value="DG">
+                                                                                        Divorced</option>
+                                                                                    <option value="SP">
+                                                                                        Separated</option>
+                                                                                    <option value="WD">
+                                                                                        Widowed</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Nationality</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="Nationality">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">State
+                                                                            of Origin</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="State of Origin">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Local
+                                                                            Government Area of
+                                                                            Origin</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Ifelolu">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Place
+                                                                            of Birth</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="Place of Birth">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Bank
+                                                                            Verfication Number (BVN)</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="28292302323">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">National Identity Number
+                                                                            (NIN)</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="37292382323">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Date
+                                                                            of Birth</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <div class="form-icon form-icon-right">
+                                                                                <em
+                                                                                    class="icon ni ni-calendar-alt"></em>
+                                                                            </div>
+                                                                            <input type="text"
+                                                                                class="form-control form-control-outlined date-picker"
+                                                                                id="outlined-date-picker"
+                                                                                placeholder="MM/DD/YYYY">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <hr class="preview-hr"
+                                                                        style="width: 100%; display: block;" />
+                                                                    <span
+                                                                        class="preview-title-lg overline-title">Residential
+                                                                        Address</span>
+                                                                </div>
+
+
+
+                                                                <div class="row" style="width: 100%; margin: auto;">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">Location</label>
+                                                                            <div class="form-control-wrap ">
+                                                                                <div class="form-control-select">
+                                                                                    <select class="form-control"
+                                                                                        id="default-06">
+                                                                                        <option value="default_option">
+                                                                                            Select Option</option>
+                                                                                        <option value="N">
+                                                                                            Nigeria</option>
+                                                                                        <option value="A">
+                                                                                            Abroad</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">House No./House
+                                                                                Name</label>
+                                                                            <div class="form-control-wrap">
+                                                                                <input type="text" class="form-control"
+                                                                                    id="default-02" placeholder="1a">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Street Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Olanlokun">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Village/Town/City</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Olanlokun">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Local
+                                                                            Government Area
+                                                                            (LGA)</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Olanlokun">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">State
+                                                                            of Residence</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Lagos">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Country of
+                                                                            Residence</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Nigeria">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="row" style="width: 100%; margin: auto;">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">ZIP Code</label>
+                                                                            <div class="form-control-wrap">
+                                                                                <input type="text" class="form-control"
+                                                                                    id="default-02"
+                                                                                    placeholder="100243">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">P.O. Box/P.M.B</label>
+                                                                            <div class="form-control-wrap">
+                                                                                <input type="text" class="form-control"
+                                                                                    id="default-02" placeholder="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <hr class="preview-hr"
+                                                                        style="width: 100%; display: block;" />
+                                                                    <span class="preview-title-lg overline-title">Other
+                                                                        Details</span>
+                                                                </div>
+
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Phone
+                                                                            Number</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="+234 8167 393 3933">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Email</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="email" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="example@example.com">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- <div class="add-picture" data-toggle="modal"
+                                                                    data-target="#smart-camera">
+                                                                    <p class="mb-0">Click here to add your photo</p>
+                                                                    <i id="add-picture" class="fas fa-3x fa-camera"></i>
+                                                                </div> -->
+
+
+                                                            </div>
+                                                        </form>
+                                                        <div class="row g-3 px-4 mt-4">
+                                                            <div class="col-lg-7 offset-lg-5" style="
+                                                            margin-left: 0px !important;
+                                                        ">
+                                                                <div class="form-group mt-2">
+                                                                    <button type="submit" id="personalBtn"
+                                                                        class="btn btn-lg btn-primary">Proceed</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="thirdCard" class="card mt-0 d-none">
+                                                    <div class="card-inner px-0">
+                                                        <div class="card-head px-4">
+                                                            <h5 class="card-title"> Employment Records</h5>
+                                                        </div>
+                                                        <form action="#" onsubmit="event.preventDefault()"
+                                                            class="gy-3 scroll-y">
+                                                            <div class="row g-3 align-center">
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Employer Type</label>
+                                                                        <div class="form-control-wrap ">
+                                                                            <div class="form-control-select">
+                                                                                <select class="form-control"
+                                                                                    id="default-06">
+                                                                                    <option value="default_option">
+                                                                                        Select Option</option>
+                                                                                    <option value="PU">
+                                                                                        Federal Government</option>
+                                                                                    <option value="ST">
+                                                                                        State Government</option>
+                                                                                    <option value="PR">
+                                                                                        Private Companies</option>
+                                                                                    <option value="FR">
+                                                                                        Business Names</option>
+
+                                                                                    <option value="FR">
+                                                                                        Foreign Agencies</option>
+                                                                                    <option value="EM">
+                                                                                        Embassies</option>
+                                                                                    <option value="NG">
+                                                                                        Non-governmental Organisations
+                                                                                        (NGOs)</option>
+                                                                                    <option value="FR">
+                                                                                        Unions</option>
+                                                                                    <option value="UN">
+                                                                                        Unions</option>
+                                                                                    <option value="MP">
+                                                                                        Informal Sector businesses under
+                                                                                        the
+                                                                                        Micro Pension Plan</option>
+                                                                                    <option value="CB">
+                                                                                        Cross Border employers</option>
+
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Employer Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Employer Location</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="col-lg-12">
+                                                                    <hr class="preview-hr"
+                                                                        style="width: 100%; display: block;" />
+                                                                    <span
+                                                                        class="preview-title-lg overline-title">Employer
+                                                                        Address or Last
+                                                                        Employer Address (retirees
+                                                                        only):</span>
+                                                                </div>
+
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Building
+                                                                            No./Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="1a">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Street
+                                                                            Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Olanlokun">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Village/Town/City</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Olanlokun">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Local
+                                                                            Government Area
+                                                                            (LGA)</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Olanlokun">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">State
+                                                                            of Residence</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Lagos">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Country
+                                                                            of
+                                                                            Residence</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Nigeria">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="row" style="width: 100%; margin: auto;">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">ZIP
+                                                                                Code</label>
+                                                                            <div class="form-control-wrap">
+                                                                                <input type="text" class="form-control"
+                                                                                    id="default-02"
+                                                                                    placeholder="100243">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">P.O.
+                                                                                Box/P.M.B</label>
+                                                                            <div class="form-control-wrap">
+                                                                                <input type="text" class="form-control"
+                                                                                    id="default-02" placeholder="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <hr class="preview-hr"
+                                                                        style="width: 100%; display: block;" />
+                                                                    <span class="preview-title-lg overline-title">Other
+                                                                        Details</span>
+                                                                </div>
+
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Employer’s Phone
+                                                                            No.</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="+234 8167 393 3933">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Nature of Business</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="example@example.com">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="row" style="width: 100%; margin: auto;">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">Date of First
+                                                                                Appointment</label>
+                                                                            <div class="form-control-wrap">
+                                                                                <div class="form-icon form-icon-right">
+                                                                                    <em
+                                                                                        class="icon ni ni-calendar-alt"></em>
+                                                                                </div>
+                                                                                <input type="text"
+                                                                                    class="form-control form-control-outlined date-picker"
+                                                                                    id="outlined-date-picker"
+                                                                                    placeholder="MM/DD/YYYY">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">Date of Current
+                                                                                Employment</label>
+                                                                            <div class="form-control-wrap">
+                                                                                <div class="form-icon form-icon-right">
+                                                                                    <em
+                                                                                        class="icon ni ni-calendar-alt"></em>
+                                                                                </div>
+                                                                                <input type="text"
+                                                                                    class="form-control form-control-outlined date-picker"
+                                                                                    id="outlined-date-picker"
+                                                                                    placeholder="MM/DD/YYYY">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- <div class="add-picture" data-toggle="modal"
+                                                                    data-target="#smart-camera">
+                                                                    <p class="mb-0">Click here to add your photo</p>
+                                                                    <i id="add-picture" class="fas fa-3x fa-camera"></i>
+                                                                </div> -->
+
+
+                                                            </div>
+                                                        </form>
+                                                        <div class="row g-3 px-4 mt-4">
+                                                            <div class="col-lg-7 offset-lg-5" style="
+                                                            margin-left: 0px !important;
+                                                        ">
+                                                                <div class="form-group mt-2">
+                                                                    <button type="submit" id="employerBtn"
+                                                                        class="btn btn-lg btn-primary">Proceed</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="fourthCard" class="card mt-0 d-none">
+                                                    <div class="card-inner px-0">
+                                                        <div class="card-head px-4">
+                                                            <h5 class="card-title">Next of Kin’s (NOK) Personal Data
+                                                            </h5>
+                                                        </div>
+                                                        <form action="#" onsubmit="event.preventDefault()"
+                                                            class="gy-3 scroll-y">
+                                                            <div class="row g-3 align-center">
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Title</label>
+                                                                        <div class="form-control-wrap ">
+                                                                            <div class="form-control-select">
+                                                                                <select class="form-control"
+                                                                                    id="default-06">
+                                                                                    <option value="default_option">
+                                                                                        Select Option</option>
+                                                                                    <option value="Mr">
+                                                                                        Mr</option>
+                                                                                    <option value="Mrs">
+                                                                                        Mrs</option>
+                                                                                    <option value="Miss">
+                                                                                        Miss</option>
+                                                                                    <option value="Ms">
+                                                                                        Ms</option>
+
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="Gender">Gender</label>
+                                                                        <div class="g-4 align-center flex-wrap">
+                                                                            <div class="g">
+                                                                                <div
+                                                                                    class="custom-control custom-control-sm custom-radio mr-2">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        name="radioSize"
+                                                                                        id="customRadio7">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio7">Male</label>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="custom-control custom-control-sm custom-radio mr-2">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        name="radioSize"
+                                                                                        id="customRadio8">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio8">Female</label>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="custom-control custom-control-sm custom-radio mr-2">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        name="radioSize"
+                                                                                        id="customRadio9">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio9">Others</label>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">First
+                                                                            Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="First Name">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Middle Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="Middle Name">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Surname</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Surname">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Relationship</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Brother">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="col-lg-12">
+                                                                    <hr class="preview-hr"
+                                                                        style="width: 100%; display: block;" />
+                                                                    <span class="preview-title-lg overline-title">NOK’s
+                                                                        Correspondence
+                                                                        Address</span>
+                                                                </div>
+
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Building
+                                                                            No./Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="1a">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Street
+                                                                            Name</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Olanlokun">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Village/Town/City</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Olanlokun">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">Local
+                                                                            Government Area
+                                                                            (LGA)</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Olanlokun">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">State
+                                                                            of Residence</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Lagos">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label"
+                                                                            for="default-01">Country
+                                                                            of
+                                                                            Residence</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02" placeholder="Nigeria">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="row" style="width: 100%; margin: auto;">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">ZIP
+                                                                                Code</label>
+                                                                            <div class="form-control-wrap">
+                                                                                <input type="text" class="form-control"
+                                                                                    id="default-02"
+                                                                                    placeholder="100243">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label"
+                                                                                for="default-01">P.O.
+                                                                                Box/P.M.B</label>
+                                                                            <div class="form-control-wrap">
+                                                                                <input type="text" class="form-control"
+                                                                                    id="default-02" placeholder="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <hr class="preview-hr"
+                                                                        style="width: 100%; display: block;" />
+                                                                    <span class="preview-title-lg overline-title">Other
+                                                                        Details</span>
+                                                                </div>
+
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">
+                                                                            Phone
+                                                                            No.</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="text" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="+234 8167 393 3933">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label class="form-label" for="default-01">NOK's
+                                                                            Personal Email
+                                                                            Address</label>
+                                                                        <div class="form-control-wrap">
+                                                                            <input type="email" class="form-control"
+                                                                                id="default-02"
+                                                                                placeholder="example@example.com">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+
+                                                                <!-- <div class="add-picture" data-toggle="modal"
+                                                                    data-target="#smart-camera">
+                                                                    <p class="mb-0">Click here to add your photo</p>
+                                                                    <i id="add-picture" class="fas fa-3x fa-camera"></i>
+                                                                </div> -->
+
+
+                                                            </div>
+                                                        </form>
+                                                        <div class="row g-3 px-4 mt-4">
+                                                            <div class="col-lg-7 offset-lg-5" style="
+                                                            margin-left: 0px !important;
+                                                        ">
+                                                                <div class="form-group mt-2">
+                                                                    <button type="submit" id="nokBtn"
+                                                                        class="btn btn-lg btn-primary">Proceed</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="fifthCard" class="card mt-0 d-none">
+                                                    <div class="card-inner px-0">
+                                                        <div class="card-head px-4">
+                                                            <h5 class="card-title">Biometrics and RSA Holder’s Consent
+                                                            </h5>
+                                                        </div>
+                                                        <form action="#" onsubmit="event.preventDefault()"
+                                                            class="gy-3 scroll-y">
+                                                            <div class="row g-3 align-center">
+                                                                <div class="row" style="width: 100%; margin: auto;">
+                                                                    <div class="col-sm-6">
+                                                                        <img style="height: 200px;"
+                                                                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVuJTIwcG9ydHJhaXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" />
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <img style="height: 200px;"
+                                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS0AAACnCAMAAABzYfrWAAAAwFBMVEX///8LIDQAGzAAGjAAFi0AGC4AHDEAEyv7/PwAACLz9PUAESoAAB35+voAABzT1tkAABkAACAAACQACyfj5uju8PEoNkW0ub7o6uza3eDEyc3O0tVsdX55hI4QJDcAABVLVWFfaXQfMkSTnaUAAA66v8SkqrB6hpBSYG0vRFZFVGOKlJ2XoKiFjJQYKz5HWWg7R1VicH0cNUlVZXNCTFhZYWoAAAg3QlCtsbVocnwZKToAFzMbNEgqPU5vfYkLK0FgLwsJAAAKLElEQVR4nO2de3+iOBeACYFwU1EBEVAKWBHlUp3aV2wH+/2/1QbU6u5Mu0rd1zHm+ad1WvklZ845ObdYhqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQK5R+o4bVXcEPo6EW+9hpuhmYKR9dew+3gPHj6tddwMxgzOLn2Gm6HUXtpXXsNN4PFgc2113A7+FphX3sNN4PdQf6113AzyHPh1bz2Im6GpIGia6/hZtDfWTC+9iJuho3APl17DTeD4yKFHoin4rPc7NpruBnGr6hLw/gTaUZIWVx7ETdDkqEGLT6cSNODVLVOJslYjarWicgeL8XXXsTNkAT8j+a1F3ErWB7fpun0qaRAiKhqnYjlCYJ67UXcDDHQhoT3EPWL7U/1tILwnEe0jUs9CquWKV7qYX8mtnkp3VIjaXExyf+hxPmlDrER7JHu4g3fudCT9HU3IdzFM+P5paQVIp/4BHE0vZD16OuM+PKy7s8uc+aLIUpJd/GMGQz7F3mQGgXEq5YYP+RVhGR8U8OMtEu+ajmRVmmEPfS/1S4V86BHfr81R3Ps5PvJTJC+VR52vMaFLPoPpj/sDHTGGmYQKMNvPEcfaAH5ZS173goZxwcsANI3diuHQBsQH2uJoeA6doQ4AMDjN8Jwu+Bd8mfjLV/yRxFSZsMei+o/Rp9xwgvpGSLOet65pxlQptbEFZ5rP8XYCK5A/mh8P1WACwSc+rzwndrnfzMEs6l3qWTzz8WZQQD4Hw6jztlG7bKNo3hJJyW8CIgxJQAQh5VqlAlPdbervy/NaEV+ZKqvhV3g8CJIdY808ckN7f8NSK9r4XP/DQAtNsoSFw9rGqI40UbyU5BfdmV/IEasAWFdJtNDpAxqSst8XDNOa018Ps2oUwir+xK6x0k1oyX7wWsaz25y0YX9iYhmA7mVBY0yblbP7+hvqz5jdT3Ce4gY64nbFjv7vtLNa52IMsxsRh4K6Ve/Q4SRNkONj6qQMgy4otaWjCcUlvq1/MKMDZsIvXMCPqiiBmOAw4c6Pl5eSNhfiSPti5t1/ZCIOo4x0IRtPysv+KDO/78RVxUxI1h9Xo7Xh0TMkIimhtwqEe4PBC0+Z0uWWv22EXcnpbPLW5/frLOGERF2qM94bpsIhz2uODF8qJyb5T+XEhBHyro032bxec1UHZBRqhcTDbjVSWb5irJrx5v5b1VMHG/Foecxlqo10NbYgJt5tq2VjiXv6F1Nxz54QCfiRkTk2lbAwnnpbsQwE3bd19xt/U5L5DB7w0rVHK81MMLqwmlJ8yAsZgaOItOm6c3HewGNI21ARF9D3GgAVYmwGgna9kDMA1b7TbYnjwDfdhgnLVzPjZ1o5SkmFlawE5baXR2Cj6Y5Fxr7uRGz6F6oCX5tLAjgqlQkeYSU3ckYQCD9aol67LpF1wy9xtpMOM9b2gkci+FeWMyzcJiNx8LiQGenW0mgzAlpXW8UwPulaOw5l1XDfGEPAf7ollyzXymcNUA/x09chApTl2MNejaW1Bhr1k5r9G720emphAXa1YlhpBx+8P9vQ/8l1htAvTIy1TeCVPVMw4IFoHvwQHrql4ph+wpOuyOus7FERk5bviUaabEo9sJiJt2Plu1WWACVP7IGHEQmIYPgC6xaXrkX0+UqcwkLCDPQ+DDE/ga0c0bMl401jjKG7+PKW6upVbZZkbLZ61MTaPvgo2mueC7L2B/4Z2YEWWLmTy0NgKx0N5YnKCO5EpY06nHT/S/0BwBpuZj0OpNSLn1ru3Gx9Oeqp6UfxhdL+4v5IhaWEE2WXNHvTwqebY8JERb2zAAujTIaF5SyGGgWbCfMg4+7TMYa8HwQp69v8T8jADkfRsnhEAwau+hTNAv8lnFecLM4cqHyppIirD5WLVBmeI7LZzhmsJdsOxEn7uNOZYwFRLOZW7jol2hVjjOUHiQYCsX2G3EcQC7ImTBDWYbYdkREnFUxVADbw5LRnwRtaGBhocbGYDxhZ4jygucm4wIJv34MjRwjFh4lM/POtuUqjjPIl6X5BGE3r8GQhEx6B8Jb2uCtJxq3tHEMwTY2fcbuSdud932B24h2oBW/pHhyLOC3Cs/7A3HsartvAFsJi4m7QGtviCj/7RhBgF7xhlWNdZMy4GqU+UmcPVRCMH4K2kBknOLX4rE4VhBUINBGu9DgSdoWtmwF7UplIWoMSZIVw0xxHI9PMgOnPAPGmQrdKpl7Ed5LvzxuCe5nF1f77yy/SmIJ7Ibi1d425IgfEAwIHbDJXexabKYZtnBa7RSKsimFZa+6cemyHrjgs/aNESkIC0WdceitEtdCKedMxEkbu0FChcU8IwCnlR1mI6tQ+G2kmQQt1Zh0NLT8dPjDbANYnqR2AZGEo4j+qq0zovpTAnBORBXrN1gBAtq4tEO0Hk8VtAvL17z7rEh8b/PpaWb8ZOG2EGr2IGhE6hBMDWvxCBGIiB2vSV0AA0ZMWmg+mSlgJyzdE6AGiq+2PZHQ3t7MFUJcQ2FnP1oC4gKizsC/s4RASrAdAne6VNx9wqf7wfxl+FWBpa8h8NH8t/0M4giXhVAIXkh1WUxpRQhBWX7iykmkD2Hh/Yf/Yk1DDR61doyR5yLX7c1fiL4zNnSBljKjBtYMGKSnDyEbXaxax/+Q94o0Dgkp932C7EGg9NVuWYfqjc5Qi1BCf0uExKFGRoPiK7AhKuvmDNshXJ2VzOGQdn382p4HxE/HMxNsiOpIAoDzzgqR1AcUHL9BHHbPatjeJE0f8tHYBQgOzwuRFgqcH792PJf86Xh1CWE0Rex7cl79ScQh6N+GjmIlJV61mLzAaQ/euX2mg7a7VdXiA8dDxIbvB1JQ0jo7ntwIcHn0Uoy3qTjZ6C88FlaNjzAqWHhsiGoESU2jjyg7rNjDn91u13kEj516yN+BajUHpWp1zr+9FEKciB+wfOkOVMvxsLT46fkVgwXkju+XhdAnYxrkS5IMq1ajxmG2gspR9dnyu4QMOHxFcygAoE3OH06QA9Q9knEu3INqlYaI3mu4Z/UVtQ+vsGqRf6dn2xlt1RnlSFz2x+FV3r0H1TIGCuBndU7+CeAOn6xvRXehWrYHQbdWKuwj7RCbmq17UK3SEJV6feQIHa5cW5FyD6olphpy62nFCjb2ZVPxTlTLibjqlmsNVvBh/0Zrhghu8RwwC67WZR6G6ffg4+7bZvhwF6rFjFdoVE+1nB562H2rFnfw8Sslch7XbDuoPZbbPSPtkP8pit9E/RjfVUHvDjLE7/EhLXkiDcgdebgQH9Ky31ZUtf6NvbQMX9gQcrviP2QnLdHsfnEjmLLD6vHv+Et/Dr76HAPKliaO5fGXtEX/QvAprMpY3uFeyf/wtksQobYlRppHo4dTWICOnXfp37w9jZGrxAUXET/cdhnUV7bHZeRPIF2IcrJ3cu1F3AwLiN6vvYbbwZYe76EYfymS+6gBUigUCoVCoVAoFAqFQqFQKBQKhUKhUCgUyp3yF0/j11KxqvW1AAAAAElFTkSuQmCC" />
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-12">
+                                                                    <div class="preview-block">
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input" checked
+                                                                                id="customCheck2">
+                                                                            <label class="custom-control-label"
+                                                                                for="customCheck2">I hereby certify that
+                                                                                the information provided in this
+                                                                                form is correct. I further consent and
+                                                                                authorize the
+                                                                                National Identity Management Commission
+                                                                                to release
+                                                                                my NIN information (as may be required),
+                                                                                upon
+                                                                                request by my PFA or its Agent, for the
+                                                                                maintenance
+                                                                                and operation of my Retirement Savings
+                                                                                Account. It is
+                                                                                my understanding that due care will be
+                                                                                exercised by all
+                                                                                parties to ensure that my information is
+                                                                                secure and
+                                                                                protected.</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                        <div class="row g-3 px-4 mt-4">
+                                                            <div class="col-lg-7 offset-lg-5" style="
+                                                            margin-left: 0px !important;
+                                                        ">
+                                                                <div class="form-group mt-2">
+                                                                    <button type="submit" id="bioBtn"
+                                                                        class="btn btn-lg btn-primary">Proceed</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="successCard" class="card mt-0 d-none">
+                                                    <div class="card-inner px-0">
+
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="card h-100">
+                                                    <div id="faqs" class="accordion">
+                                                        <div class="accordion-item">
+                                                            <a href="#" class="accordion-head" data-toggle="collapse"
+                                                                data-target="#faq-q1">
+                                                                <h6 class="title">Step 1 - Validate your ID <span
+                                                                        id="validate" class="badge badge-warning">Pending</span>
+                                                                </h6>
+                                                                <span class="accordion-icon"></span>
+                                                            </a>
+                                                            <div class="accordion-body collapse show" id="faq-q1"
+                                                                data-parent="#faqs">
+                                                                <div class="accordion-inner">
+                                                                    <p>
+                                                                    <ul class="list list-sm list-unchecked">
+                                                                        <li>Validate RSA PIN <span
+                                                                                class="badge badge-success">Approved</span>
+                                                                        </li>
+                                                                        <li>Verify ID Number <span
+                                                                                class="badge badge-success">Approved</span>
+                                                                        </li>
+                                                                        <li>Register a Selfie <span
+                                                                                class="badge badge-success">Approved</span>
+                                                                        </li>
+                                                                        <li>Compare Selfie to Govt ID Authority
+                                                                            <span
+                                                                                class="badge badge-danger">Rejected</span>
+                                                                        </li>
+                                                                        <li>Perform Proof of Life Check <span
+                                                                                class="badge badge-warning">Pending</span>
+                                                                        </li>
+                                                                        <li>Get Personal Info <span
+                                                                                class="badge badge-success">Approved</span>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- .accordion-item -->
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head collapsed"
+                                                            data-toggle="collapse" data-target="#faq-q2">
+                                                            <h6 class="title">Step 2 - Recapture your ID <span
+                                                                    class="badge badge-danger">Not Completed</span></h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse" id="faq-q2"
+                                                            data-parent="#faqs">
+                                                            <div class="accordion-inner">
+                                                                <p>
+                                                                <p>
+                                                                <ul class="list list-sm list-unchecked">
+                                                                    <li>Contributors Personal Details <span
+                                                                            id="personal"
+                                                                            class="badge badge-warning">Pending</span>
+                                                                    </li>
+                                                                    <li>Employment Information <span id="employer"
+                                                                            class="badge badge-warning">Pending</span>
+                                                                    </li>
+                                                                    <li>Next of Kin Information <span id="nok"
+                                                                            class="badge badge-warning">Pending</span>
+                                                                    </li>
+                                                                    <li>Contibutors Biometrics
+                                                                        <span id="bio"
+                                                                            class="badge badge-warning">Pending</span>
+                                                                    </li>
+                                                                    <li>Contributor Consent Form<span id="bio"
+                                                                            class="badge badge-warning">Pending</span>
+                                                                    </li>
+                                                                    <!-- <li>Contributor Other PINs <span
+                                                                            class="badge badge-warning">Pending</span>
+                                                                    </li> -->
+
+                                                                </ul>
+                                                            </div>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head collapsed"
+                                                            data-toggle="collapse" data-target="#faq-q3">
+                                                            <h6 class="title">Step 3 - Review and Submit</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse" id="faq-q3"
+                                                            data-parent="#faqs">
+                                                            <div class="accordion-inner">
+                                                                <p>We always provide <strong>free support for first
+                                                                        6 months</strong> from the purchase date. If
+                                                                    you’re about to purchase the item, you’ll have
+                                                                    the option to purchase <strong>extended item
+                                                                        support</strong>, increasing the item
+                                                                    support period up to a <strong>maximum of 12
+                                                                        months</strong> from the date of purchase.
+                                                                </p>
+                                                                <p>Yes, you can! If you have less than <strong>6
+                                                                        months remaining</strong> on a support item
+                                                                    you’re eligible to renew your support.</p>
+                                                                <h6>What else is included?</h6>
+                                                                <ul class="list list-sm list-checked">
+                                                                    <li>Answering all questions including technical
+                                                                        about the item</li>
+                                                                    <li>Help with defects in the item or included
+                                                                        third-party assets</li>
+                                                                    <li>Item updates to ensure ongoing compatibility
+                                                                        and to resolve security vulnerabilities</li>
+                                                                    <li>Updates to ensure the item works as
+                                                                        described and is protected against major
+                                                                        security concerns</li>
+                                                                    <li>Included version updates for all items</li>
+                                                                </ul>
+                                                                <h6>What's not included in item support?</h6>
+                                                                <ul class="list list-sm list-cross">
+                                                                    <li>Installation of the item</li>
+                                                                    <li>Hosting, server environment, or software
+                                                                    </li>
+                                                                    <li>Help from authors of included third-party
+                                                                        assets</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- .accordion-item -->
+
+                                            </div><!-- .accordion -->
+                                        </div><!-- .card -->
+                                    </div>
+                                </div>
+                            </div><!-- .nk-block -->
+
+                        </div><!-- .components-preview -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content @e -->
+        <!-- footer @s -->
+        <div class="nk-footer">
+            <div class="container-fluid">
+                <div class="nk-footer-wrap">
+                    <div class="nk-footer-copyright"> &copy; 2020 DashLite. Template by <a href="https://softnio.com"
+                            target="_blank">Softnio</a>
+                    </div>
+                    <div class="nk-footer-links">
+                        <ul class="nav nav-sm">
+                            <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer @e -->
+    </div>
+    <!-- wrap @e -->
+    </div>
+    <!-- main @e -->
+    </div>
+    <!-- app-root @e -->
+    <!-- JavaScript -->
+    <script src="./assets/js/small.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+        integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.smileidentity.com/js/v1.0.0-beta.1/smart-camera-web.js"></script>
+    <script src="./assets/js/bundle.js?ver=2.5.0"></script>
+    <script src="./assets/js/scripts.js?ver=2.5.0"></script>
+    <script>
+        const smartCameraWeb = document.querySelector('smart-camera-web');
+
+        smartCameraWeb.addEventListener('imagesComputed', (e) => {
+            const data = e.detail;
+            document.getElementById('selfies').value = JSON.stringify(data.images)
+            if (data) {
+                $("#smart-camera").modal("hide");
+                $('.viewImg').css('display', 'block');
+                $('.add-picture').css('display', 'none');
+                $('#viewImg').html(`<img src=data:image/jpeg;base64,${data.images[0].image} width="350" style="transform: scaleX(-1);"/>`);
+            }
+            console.log(data)
+        });
+    </script>
+</body>
+
+</html>

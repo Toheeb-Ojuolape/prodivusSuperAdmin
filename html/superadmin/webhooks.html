@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+  <base href="../../">
+  <meta charset="utf-8">
+  <meta name="author" content="Softnio">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+  <!-- Fav Icon  -->
+  <link rel="shortcut icon" href="./images/favicon.png">
+  <!-- Page Title  -->
+  <title>ProvidusBank | Admin</title>
+  <!-- StyleSheets  -->
+  <link rel="stylesheet" href="./assets/css/dashlite.css?ver=2.5.0">
+  <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=2.5.0">
+
+  <link rel="stylesheet" href="../../assets/css/dashlite.css?ver=2.5.0">
+  <link id="skin-default" rel="stylesheet" href="../../assets/css/theme.css?ver=2.5.0">
+
+</head>
+
+
+<body class="nk-body npc-default pg-auth">
+  <!-- sidebar @s -->
+  <div class="nk-sidebar nk-sidebar-fixed is-light " data-content="sidebarMenu">
+    <div class="nk-sidebar-element nk-sidebar-head">
+        <div class="nk-sidebar-brand">
+            <a href="html/index.html" class="logo-link nk-sidebar-logo">
+                <img class="logo-light logo-img" src="./images/logo-login.png"
+                    srcset="./images/logo-login.png 2x" alt="logo">
+                <img class="logo-dark logo-img" src="./images/logo-dark.png"
+                    srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                <img class="logo-small logo-img logo-img-small" src="./images/logo-login.png"
+                    srcset="./images/logo-login.png 2x" alt="logo-small">
+            </a>
+        </div>
+        <div class="nk-menu-trigger mr-n2">
+            <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em
+                    class="icon ni ni-arrow-left"></em></a>
+            <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex"
+                data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+        </div>
+    </div><!-- .nk-sidebar-element -->
+    <div class="nk-sidebar-element">
+        <div class="nk-sidebar-content">
+            <div class="nk-sidebar-menu" data-simplebar>
+                <ul class="nk-menu">
+                    <li class="nk-menu-heading">
+                        <h6 class="overline-title text-primary-alt">Main</h6>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="html/console/index.html" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-dashboard-fill"></em></span>
+                            <span class="nk-menu-text">Dashboard</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="html/console/Integration.html" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-db"></em></span>
+                            <span class="nk-menu-text">My Services</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="html/console/transactions.html" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-file-docs"></em></span>
+                            <span class="nk-menu-text">Transactions</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="html/console/customers.html" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
+                            <span class="nk-menu-text">Logs</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="html/console/supports.html" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-chat-fill"></em></span>
+                            <span class="nk-menu-text">Audits Trail</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="html/console/settings.html" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-opt-alt-fill"></em></span>
+                            <span class="nk-menu-text">Settings</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+
+                    <li class="nk-menu-heading">
+                        <h6 class="overline-title text-primary-alt">Integration</h6>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="html/index.html" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-dashlite-alt"></em></span>
+                            <span class="nk-menu-text">API Documentation</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="html/components.html" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-layers-fill"></em></span>
+                            <span class="nk-menu-text">Our Community</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                </ul><!-- .nk-menu -->
+            </div><!-- .nk-sidebar-menu -->
+        </div><!-- .nk-sidebar-content -->
+    </div><!-- .nk-sidebar-element -->
+</div>
+<!-- sidebar @e -->
+  <!-- wrap @s -->
+  <div class="nk-wrap ">
+    <!-- main header @s -->
+        <!-- main header @s -->
+        <div class="nk-header is-light">
+          <div class="container-fluid">
+              <div class="nk-header-wrap">
+                  <div class="nk-menu-trigger d-xl-none ml-n1">
+                      <a href="#" class="nk-nav-toggle nk-quick-nav-icon" data-target="sidebarMenu"><em
+                              class="icon ni ni-menu"></em></a>
+                  </div>
+                  <div class="nk-header-brand d-xl-none">
+                      <a href="html/index.html" class="logo-link">
+                          <img class="logo-light logo-img" src="./images/logo.png"
+                              srcset="./images/logo2x.png 2x" alt="logo">
+                          <img class="logo-dark logo-img" src="./images/logo-dark.png"
+                              srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                      </a>
+                  </div><!-- .nk-header-brand -->
+                  <div class="nk-header-search ml-3 ml-xl-0">
+                      <em class="icon ni ni-search"></em>
+                      <input type="text" class="form-control border-transparent form-focus-none"
+                          placeholder="Search anything">
+                  </div><!-- .nk-header-news -->
+                  <div class="nk-header-tools">
+                      <ul class="nk-quick-nav">
+
+                          <li class="dropdown user-dropdown">
+                              <a href="#" class="dropdown-toggle mr-n1" data-toggle="dropdown">
+                                  <div class="user-toggle">
+                                      <div class="user-avatar sm">
+                                          <em class="icon ni ni-user-alt"></em>
+                                      </div>
+                                      <div class="user-info d-none d-xl-block">
+                                          <div class="user-status user-status-active">Administator</div>
+                                          <div class="user-name dropdown-indicator">KUDA BANK</div>
+                                      </div>
+                                  </div>
+                              </a>
+                              <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                  <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                      <div class="user-card">
+
+                                          <div class="user-info">
+                                              <span class="lead-text">Yomi Elegbe</span>
+                                              <span class="sub-text">devs@kudabank.com</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="dropdown-inner">
+                                      <ul class="link-list">
+                                          <li><a href="html/ecommerce/user-profile.html"><em
+                                                      class="icon ni ni-user-alt"></em><span>View
+                                                      Profile</span></a></li>
+                                          <li><a href="html/ecommerce/user-profile.html"><em
+                                                      class="icon ni ni-setting-alt"></em><span>Account
+                                                      Setting</span></a></li>
+                                          <li><a href="html/ecommerce/user-profile.html"><em
+                                                      class="icon ni ni-activity-alt"></em><span>Login
+                                                      Activity</span></a></li>
+                                          <li><a class="dark-switch" href="#"><em
+                                                      class="icon ni ni-moon"></em><span>Dark Mode</span></a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                                  <div class="dropdown-inner">
+                                      <ul class="link-list">
+                                          <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign
+                                                      out</span></a></li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div><!-- .nk-header-wrap -->
+          </div><!-- .container-fliud -->
+      </div>
+      <!-- main header @e -->
+    <!-- main header @e -->
+    <!-- content @s -->
+    <div class="nk-content ">
+      <div class="container-fluid">
+        <div class="nk-content-inner">
+          <div class="nk-content-body">
+            <div class="nk-block-head nk-block-head-sm">
+              <div class="nk-block-between g-3">
+                <div class="nk-block-head-content">
+                  <h3 class="nk-block-title page-title">Settings </h3>
+                  <div class="nk-block-des text-soft">
+                    <ul class="list-inline">
+                   
+                    </ul>
+                  </div>
+                </div>
+                <div class="nk-block-head-content">
+                  <a href="html/user-list-regular.html" class="btn bg-primary text-white d-none d-sm-inline-flex"
+                    data-toggle="modal" data-target="#modalForm2"><span>Change
+                      Password</span></a>
+                </div>
+              </div>
+            </div><!-- .nk-block-head -->
+            <div class="nk-block">
+              <div class="card card-preview">
+                <div class="card-inner">
+                  <ul class="nav nav-tabs mt-n3">
+                           <li class="nav-item">
+                      <a class="nav-link active" data-toggle="tab" href="#tabItem6"><em
+                          class="icon ni ni-repeat"></em><span>API Key &
+                          Webhook</span></a>
+                    </li>
+                    
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#tabItem7"><em
+                          class="icon ni ni-users"></em><span>Team</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#tabItem8"><em
+                          class="icon ni ni-activity"></em><span>Manage
+                          Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#tabItem9"><em
+                          class="icon ni ni-coin"></em><span>Referral
+                          Commission</span></a>
+                    </li> -->
+                  </ul>
+                  <div class="tab-content">
+                                <div class="tab-pane active" id="tabItem6">
+                      <div class="card-inner">
+
+                        <form action="#" class="gy-3">
+                          <div class="row g-3 align-center">
+                            <div class="col-lg-5">
+                              <div class="form-group">
+                                <label class="form-label" for="site-name">Webhook URL</label>
+                                <span class="form-note">Enter your unique
+                                  callback url.</span>
+                              </div>
+                            </div>
+                            <div class="col-lg-7">
+                              <div class="form-group">
+                                <div class="form-control-wrap">
+                                  <input type="text" class="form-control" id="site-name"
+                                    value="https://webhook.site/dcc3694-07a3f438b5c4">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row g-3 align-center">
+                            <div class="col-lg-12">
+                              <div class="form-group">
+                                <label class="form-label">Your Authorisation
+                                  Token</label>
+                                <span class="form-note">If you re-generate your
+                                  API keys, all calls using your current key
+                                  will stop working. See the <a
+                                    href="https://staging.swiftend.com/api/documentation">Developers
+                                    Documentation</a> for more
+                                  details.</span>
+                              </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="bq-note">
+                                <div class="bq-note-item">
+                                  <div class="bq-note-text">
+                                    <p style="font-size: 13px;">
+                                      eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiNTMzZTBkM2E5ZGQ5ODI4NDAzNWU0MDI5NTMyMWE3MTM2N2NiOGY5YjIwY2I1ODQ0NmRhZjU5Y2I4MWFjZGM2NDgxZDg2MmRjMDdiY2Y5YzkiLCJpYXQiOjE2MDQyNTU0MTksIm5iZiI6MTYwNDI1NTQxOSwiZXhwIjoxOTE5Nzg4MjE5LCJzdWIiOiI1Iiwic2NvcGVzIjpbXX0.mpjkDpzSs8X2Er-djt830PsCjgQO4oUlNhbWxl1VlypTNB5SqoZFoHwUHPrCZziIKxiap49ZeCmIJ12Y3_sRHoHdAi6z98X9tKiSBrSOrneVqYv-m42IlXEYrg5E5rvv1e3dgWALSyOUWDQRjRGyK2_E4gIKWEfpvN-pGnlijZDzeOpQHxFA_nEUpB2ccqYvy5OLtad9_iJhKbEDIFduYWLYOchPyQ4mF0L0S8GE_5hIg7QJfrPzmdTWJVFLYMoKBKrjZOktgxNw9B1mpQg2_-yq789sJVgoOA-zHAdbexv5_IBXuCmw_ZbTLUJxMG_nzPrzgoQ20UWxH9nuGjTD5oHD-bgQkPtMO43fHQXhoYX-CT4cBiZxYu3cdlCsY6aGLJEFBfdMU5wM6rcVB-bJ-0OLXxeDJbzzHmFWDRyNTvVVxTHbtmqGiSaC6l-Ji11_jiVsMd8uUuS51WqhQrnrnSnC3DZUrXxpVMJ30bIKl76ONHH2GA8Ug5JpQvHlpFj9d8QfDKkWkjcOdIyWLinj8vK0jj5vyYZEUUswv2O33Tz4YtEFg_GJmrABtPr80bvnxU6GB1wvy8Kp-7tDLWVqVASCUiNsYPQWo8LGwJqJV58am15rWMWTKhssEq31hxkFWuhHvHURs9clQ0rM2gbZYXoAKtaCvA
+                                    </p>
+                                  </div>
+                                </div><!-- .bq-note-item -->
+                              </div>
+                            </div>
+                          </div>
+                          <button type="submit" class="btn btn-outline-light" style="margin-top: 20px;">Regenerate API
+                            Key</button>
+                        </form>
+                      </div>
+                      <!-- .code-block -->
+                    </div>
+                    <div class="tab-pane" id="tabItem7">
+                      <div class="card-inner-group">
+                        <div class="card-inner position-relative card-tools-toggle">
+                          <div class="card-title-group">
+                            <div class="card-tools">
+                              <div class="form-inline flex-nowrap gx-3">
+                                <div class="btn-wrap">
+                                  <span class="d-none d-md-block"><button type="button" class="btn btn-primary"
+                                      data-toggle="modal" data-target="#addUserModal" onclick="loadProjectLists()">
+                                      Add users</button></span>
+                                  <span class="d-md-none"><button
+                                      class="btn btn-dim btn-outline-light btn-icon disabled"><em
+                                        class="icon ni ni-arrow-right"></em></button></span>
+                                </div>
+                              </div><!-- .form-inline -->
+                            </div><!-- .card-tools -->
+                            <div class="card-tools mr-n1">
+
+                            </div><!-- .card-tools -->
+                          </div><!-- .card-title-group -->
+
+                        </div><!-- .card-inner -->
+                        <div class="card-inner p-0">
+                          <div class="nk-tb-list nk-tb-ulist" id="customerTeams">
+
+                          </div><!-- .nk-tb-list -->
+                        </div><!-- .card-inner -->
+
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="tabItem8">
+                      <div class="card-inner-group">
+                        <div class="card-inner position-relative card-tools-toggle">
+                          <div class="card-title-group">
+                            <div class="card-tools">
+                              <div class="form-inline flex-nowrap gx-3">
+                                <div class="btn-wrap">
+                                  <span class="d-none d-md-block"><button type="button" class="btn btn-primary"
+                                      data-toggle="modal" data-target="#addProjectModal">
+                                      Add Project</button></span>
+                                  <span class="d-md-none"><button
+                                      class="btn btn-dim btn-outline-light btn-icon disabled"><em
+                                        class="icon ni ni-arrow-right"></em></button></span>
+                                </div>
+                              </div><!-- .form-inline -->
+                            </div><!-- .card-tools -->
+                            <div class="card-tools mr-n1">
+
+                            </div><!-- .card-tools -->
+                          </div><!-- .card-title-group -->
+
+                        </div><!-- .card-inner -->
+                        <div class="card-inner p-0">
+                          <div class="nk-tb-list nk-tb-ulist" id="customerProjects">
+
+                          </div><!-- .nk-tb-list -->
+                        </div><!-- .card-inner -->
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- .nk-block -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content @e -->
+
+    <!-- Modal Form -->
+    <div class="modal fade" tabindex="-1" id="addUserModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Invite User</h5>
+            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+              <em class="icon ni ni-cross"></em>
+            </a>
+          </div>
+          <div class="modal-body">
+            {!! Form::open(['route' => 'customer.add.user', "id" => "addUserForm"]) !!}
+            <div class="form-group">
+              {!! Form::label('full-name', 'Full Name', ['class' => 'form-label']) !!}
+              <div class="form-control-wrap">
+                {!! Form::text('name', null, ['class' => 'form-control']) !!}
+              </div>
+            </div>
+            <div class="form-group">
+              {!! Form::label('full-name', 'Email Address', ['class' => 'form-label']) !!}
+              <div class="form-control-wrap">
+                {!! Form::email('email', null, ['class' => 'form-control']) !!}
+              </div>
+            </div>
+
+            <div class="form-group" id=customerProjectLists>
+            </div>
+
+
+
+            <div class="form-group">
+              <label class="form-label">Select Role</label>
+              <ul class="custom-control-group g-3 align-center flex-wrap">
+                <li>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" checked="" name="reg-public" id="reg-enable">
+                    <label class="custom-control-label" for="reg-enable">Admin</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" name="reg-public" id="reg-disable">
+                    <label class="custom-control-label" for="reg-disable">Developer</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" name="reg-public" id="reg-request">
+                    <label class="custom-control-label" for="reg-request">Operator</label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="form-group">
+              {!! Form::submit('Invite User',['class' => 'btn btn-lg btn-primary', 'id' => 'addUser', 'data-target' =>
+              '#addUserForm']) !!}
+            </div>
+            {!! Form::close() !!}
+          </div>
+          <div class="modal-footer bg-light">
+            <span class="sub-text"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Tabs -->
+    <!-- Modal Form -->
+    <div class="modal fade" tabindex="-1" id="modalForm2">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Change Password</h5>
+            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+              <em class="icon ni ni-cross"></em>
+            </a>
+          </div>
+          <div class="modal-body">
+            {!! Form::open(['route' => 'customer.update.password', "id" => "addPasswordForm", "class" => "form-validate
+            is-alter"]) !!}
+            <div class="form-group">
+              {!! Form::label('full-name', 'Old Password',["class" => "form-label"]) !!}
+              <div class="form-control-wrap">
+                {!! Form::password('old_password', ['class' => 'form-control', 'required' => 'required']) !!}
+              </div>
+            </div>
+            <div class="form-group">
+              {!! Form::label('email-address', 'Enter New Password',["class" => "form-label"]) !!}
+              <div class="form-control-wrap">
+                {!! Form::password('new_password', ['class' => 'form-control', 'required' => 'required']) !!}
+              </div>
+            </div>
+            <div class="form-group">
+              {!! Form::label('email-address', 'Re-enter New Password',["class" => "form-label"]) !!}
+              <div class="form-control-wrap">
+                {!! Form::password('confirm_password', ['class' => 'form-control', 'required' => 'required']) !!}
+              </div>
+            </div>
+            {!! Form::submit('Change Password',['class' => 'btn btn-lg btn-primary']) !!}
+            {!! Form::close() !!}
+          </div>
+          <div class="modal-footer bg-light">
+            <span class="sub-text">User role description</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Tabs -->
+    <!-- Modal Form -->
+    <div class="modal fade" tabindex="-1" id="addProjectModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Add project</h5>
+            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+              <em class="icon ni ni-cross"></em>
+            </a>
+          </div>
+          <div class="modal-body">
+            {!! Form::open(['route' => 'customer.add.project','files'=>true, "id" => "addProjectForm"]) !!}
+            {{ Form::hidden('parent_id', $user->project_id) }}
+            <div class="form-group">
+              {!! Form::label('full-name', 'Project Name', ['class' => 'form-label']) !!}
+              <div class="form-control-wrap">
+                {!! Form::text('company_name', null, ['class' => 'form-control company_name', 'placeholder' =>
+                'Atobatele PLC']) !!}
+              </div>
+            </div>
+
+            <div class="form-group">
+              {!! Form::label('full-name', 'What does your business do?', ['class' => 'form-label']) !!}
+              <div class="form-control-wrap">
+                {!! Form::textarea('about', null, ['class' => 'form-control about', 'placeholder' => '100 Kofo Abayomi
+                Street, Victoria Island Lagos', 'rows' => 2]) !!}
+              </div>
+            </div>
+
+            <div class="form-group">
+              {!! Form::label('full-name', 'RC Number', ['class' => 'form-label']) !!}
+              <div class="form-control-wrap">
+                {!! Form::text('reg_no', null, ['class' => 'form-control reg_no', 'placeholder' => 'e.g 2654634']) !!}
+              </div>
+            </div>
+
+            <div class="form-group">
+              {!! Form::label('full-name', 'Certificate of Incorporation', ['class' => 'form-label']) !!}
+              <div class="form-control-wrap custom-file">
+                {!! Form::file('certificate', ['class' => 'custom-file-label']) !!}
+              </div>
+            </div>
+
+            <div class="form-group">
+              {!! Form::label('full-name', 'Email', ['class' => 'form-label']) !!}
+              <div class="form-control-wrap">
+                {!! Form::email('email', null, ['class' => 'form-control email', 'placeholder' => 'name@email.com']) !!}
+              </div>
+            </div>
+
+            <div class="form-group">
+              {!! Form::label('full-name', 'Country', ['class' => 'form-label']) !!}
+              <div class="form-control-wrap">
+                {!! Form::select('country', projectCountries(), null, ['placeholder' => 'Choose...', 'class' =>
+                'form-select', 'id' => 'address-county"', 'data-ui' => 'lg']) !!}
+              </div>
+            </div>
+
+            {!! Form::submit('Add Project',['class' => 'btn btn-lg btn-primary', 'id' => 'addProject', 'data-target' =>
+            '#addProjectForm']) !!}
+
+            {!! Form::close() !!}
+          </div>
+          <div class="modal-footer bg-light">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Tabs -->
+
+  </div>
+  <!-- wrap @e -->
+  <script type="text/javascript">
+    loadProjects();
+    loadTeams();
+
+    $(document).ready(function () {
+      $('#addPasswordForm').submit(function (e) {
+        e.preventDefault();
+        var form = $(this);
+        $.ajax({
+          type: "POST",
+          url: form.attr('action'),
+          data: form.serialize(),
+          success: showSuccessResponse,
+          error: showErrorResponse,
+          complete: function (xhr, status) {
+            if (status === 'success') {
+              form[0].reset();
+            }
+          }
+        });
+      });
+
+      $("#addProjectForm").submit(function (e) {
+        e.preventDefault();
+        var formData = new FormData(this);
+        var form = $(this);
+        $.ajax({
+          url: form.attr('action'),
+          type: 'POST',
+          data: formData,
+          error: showErrorResponse,
+          success: showSuccessResponse,
+          complete: function (xhr, status) {
+            if (status === 'success') {
+              form[0].reset();
+              $('#addProjectModal').modal('toggle');
+              loadProjects();
+            }
+          },
+          cache: false,
+          contentType: false,
+          processData: false
+        });
+      });
+
+      $("#addUserForm").submit(function (e) {
+        e.preventDefault();
+        var formData = new FormData(this);
+        var form = $(this);
+        $.ajax({
+          url: form.attr('action'),
+          type: 'POST',
+          data: formData,
+          error: showErrorResponse,
+          success: showSuccessResponse,
+          complete: function (xhr, status) {
+            if (status === 'success') {
+              form[0].reset();
+              $('#addUserModal').modal('toggle');
+              loadTeams();
+            }
+          },
+          cache: false,
+          contentType: false,
+          processData: false
+        });
+      });
+    });
+
+    function showErrorResponse(responseText, statusText, xhr, $form) {
+      if (typeof responseText.responseJSON !== 'undefined') {
+        $.each(responseText.responseJSON.errors, function (index, value) {
+          $.bootstrapGrowl(value, {
+            type: 'danger',
+            align: 'center',
+          });
+        });
+      }
+    }
+
+    function showSuccessResponse(responseText, statusText, xhr, $form) {
+      $.bootstrapGrowl(responseText.message, {
+        type: 'success',
+        align: 'center',
+      });
+    }
+
+    function loadProjects() {
+      var name = 'customerProjects',
+        url = "{{ route('customer.projects') }}"
+      preloader(name, url);
+    }
+
+    function loadTeams() {
+      var name = 'customerTeams',
+        url = "{{ route('customer.teams') }}"
+      preloader(name, url);
+    }
+
+    function preloader(name, url) {
+      $("#" + name).html('<div style="padding:20px;text-align:center;margin:auto;"><i class="fa fa-spinner fa-spin fa-4x"></i><br/>Please wait...</div>');
+      $("#" + name).load(url);
+    }
+
+    function loadProjectLists() {
+      var name = 'customerProjectLists',
+        url = "{{ route('customer.project-lists') }}";
+      preloader(name, url);
+    }
+
+    function deleteTrigger(url, name) {
+      const swalWithBootstrapButtons = swal.mixin({
+        confirmButtonClass: 'btn btn-success mb-2',
+        cancelButtonClass: 'btn btn-danger mr-2 mb-2',
+        buttonsStyling: false,
+      });
+      swalWithBootstrapButtons({
+        title: 'Are you sure?',
+        text: "You want to to remove " + name + "?",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        reverseButtons: true
+      }).then((result) => {
+        if (result.value) {
+          $.get(url, function (data) {
+            if (typeof data.errors !== 'undefined') {
+              $.each(data.errors, function (index, value) {
+                $.bootstrapGrowl(value, {
+                  type: 'danger',
+                  align: 'center',
+                });
+              });
+            } else {
+              if (name == 'user') {
+                loadTeams();
+              } else {
+                loadProjects();
+              }
+
+              swalWithBootstrapButtons(
+                'Deleted!',
+                data.message,
+                'success'
+              );
+            }
+          });
+
+        } else if (result.dismiss === swal.DismissReason.cancel) {
+          swalWithBootstrapButtons(
+            'Cancelled',
+            "Your " + name + " is safe :)",
+            'error'
+          )
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.png">
+
+  <!-- Title -->
+  <title>Login | Providus Bank</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!--------------------------- Styles ------------------------->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/tobi.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <style>
+    .bg-img {
+      background-image: url("./images/bgImage.jpg");
+    }
+
+    .watermarked:after {
+      background-image: url('./images/SmartSelfie.png');
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="bg-img">
+    <div class="overlay"></div>
+    <div class="loader-div">
+      <div class="loader"></div>
+    </div>
+    <div class="error-toaster"></div>
+    <div class="bg-img-text">
+      <h4>Virtual <span>Account Opening</span> Web Engine</h4>
+      <p>Fastest way to set up your virtual account without any hassel, get your account up and running in a couple of
+        steps</p>
+      <button id="modal-opener">Get Virtual Account</button>
+    </div>
+    <div class="modal-div">
+      <div class="collect-info">
+
+        <div class="flex logo-div">
+          <img class="logo" src="./images/firstbank.png" />
+          <i id="closeBtn" class="fas fa-times"></i>
+        </div>
+        <hr />
+        <div class="add-photo-text flex">
+          <p>Click here to add photo</p>
+          <i id="open-video" class="fas fa-camera"></i>
+        </div>
+        <div class="video-modal">
+          <div class="watermarked">
+            <video id="webcam" autoplay playsinline></video>
+            <section class="loader-video" id="video-loader">
+              <div class="lds-ellipsis">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </section>
+          </div>
+          <!-- <audio id="snapSound" src="audio/snap.wav" preload="auto"></audio> -->
+          <div>
+            <button type='button' class="btn" id="switch">Switch Camera</button>
+            <button type='button' class="btn" id="snap">Take Picture</button>
+          </div>
+
+          <div id="download-photo-div">
+            <canvas id="canvas" class="d-none"></canvas>
+            <div>
+              <button type='button' class="btn" onclick="retake()">Take Another</button>
+              <!-- <button type='button' id="save-picture" class="btn">Save</button> -->
+            </div>
+          </div>
+        </div>
+        <div id="picture-info" class="flex"></div>
+        <section id="all-pictures"></section>
+        <hr />
+        <form class="other-info" onsubmit="event.preventDefault()">
+          <div>
+            <select class="form-control" id="ids">
+              <option selected value="">Select an ID type</option>
+              <option value="NIN">National Identity Number (NIN)</option>
+              <option value="BVN">Bank Verification Number</option>
+              <option value="drivers-license">Drivers' License</option>
+            </select>
+          </div>
+          <div>
+            <input placeholder="Enter ID Number" class="form-control" type="text" id="id-number">
+          </div>
+          <div>
+            <select class="form-control" id="address-type">
+              <option selected value="">Select an Address Type</option>
+              <option value="Home">Home</option>
+              <option value="Office">Office</option>
+            </select>
+          </div>
+          <div>
+            <input placeholder="Enter your Address" class="form-control" type="text" id="address">
+          </div>
+          <div>
+            <button type="submit" id="submit-form">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="display-info">
+        <button id="backBtn">
+          <i class="fas fa-arrow-left"></i>Back</button>
+        <img src="./images/success.svg" />
+        <h3>Your <span>account number</span> has been <span>generated</span></h3>
+        <p>Olushola Olumide Funke</p>
+        <p>3020040427</p>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="js/webcam.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/location.js"></script>
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-RFETW_qn7f7cvwrHEv0ge9laq_IxfSs&libraries=places"></script>
+</body>
+
+</html>
