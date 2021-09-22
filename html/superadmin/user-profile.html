@@ -35,72 +35,117 @@
                         <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
                     </div>
                 </div><!-- .nk-sidebar-element -->
-                <div class="nk-sidebar-element">
-                    <div class="nk-sidebar-content">
-                        <div class="nk-sidebar-menu" data-simplebar>
-                            <ul class="nk-menu">
-                                <li class="nk-menu-item">
-                                    <a href="html/ecommerce/index.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-dashboard-fill"></em></span>
-                                        <span class="nk-menu-text">Dashboard</span>
-                                    </a>
-                                </li><!-- .nk-menu-item -->
-                                <li class="nk-menu-item">
-                                    <a href="html/ecommerce/orders.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-bag-fill"></em></span>
-                                        <span class="nk-menu-text">Orders</span>
-                                    </a>
-                                </li><!-- .nk-menu-item -->
-                                <li class="nk-menu-item">
-                                    <a href="html/ecommerce/products.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-package-fill"></em></span>
-                                        <span class="nk-menu-text">Products</span>
-                                    </a>
-                                </li><!-- .nk-menu-item -->
-                                <li class="nk-menu-item">
-                                    <a href="html/ecommerce/customers.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
-                                        <span class="nk-menu-text">Customers</span>
-                                    </a>
-                                </li><!-- .nk-menu-item -->
-                                <li class="nk-menu-item">
-                                    <a href="html/ecommerce/supports.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-chat-fill"></em></span>
-                                        <span class="nk-menu-text">Supports</span>
-                                    </a>
-                                </li><!-- .nk-menu-item -->
-                                <li class="nk-menu-item">
-                                    <a href="html/ecommerce/settings.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-opt-alt-fill"></em></span>
-                                        <span class="nk-menu-text">Settings</span>
-                                    </a>
-                                </li><!-- .nk-menu-item -->
-                                <li class="nk-menu-item">
-                                    <a href="html/ecommerce/integration.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-server-fill"></em></span>
-                                        <span class="nk-menu-text">Integration</span>
-                                    </a>
-                                </li><!-- .nk-menu-item -->
-                                <li class="nk-menu-heading">
-                                    <h6 class="overline-title text-primary-alt">Return to</h6>
-                                </li><!-- .nk-menu-item -->
-                                <li class="nk-menu-item">
-                                    <a href="html/index.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-dashlite-alt"></em></span>
-                                        <span class="nk-menu-text">Main Dashboard</span>
-                                    </a>
-                                </li><!-- .nk-menu-item -->
-                                <li class="nk-menu-item">
-                                    <a href="html/components.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-layers-fill"></em></span>
-                                        <span class="nk-menu-text">All Components</span>
-                                    </a>
-                                </li><!-- .nk-menu-item -->
-                            </ul><!-- .nk-menu -->
-                        </div><!-- .nk-sidebar-menu -->
-                    </div><!-- .nk-sidebar-content -->
-                </div><!-- .nk-sidebar-element -->
-            </div>
+                <div class="nk-sidebar nk-sidebar-fixed is-light " data-content="sidebarMenu">
+                    <div class="nk-sidebar-element nk-sidebar-head">
+                        <div class="nk-sidebar-brand">
+                            <a href="html/index.html" class="logo-link nk-sidebar-logo">
+                                <img class="logo-light logo-img" src="./images/logo-login.png"
+                                    srcset="./images/logo-login.png 2x" alt="logo">
+                                <img class="logo-dark logo-img" src="./images/logo-dark.png"
+                                    srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                                <img class="logo-small logo-img logo-img-small" src="./images/logo-login.png"
+                                    srcset="./images/logo-login.png 2x" alt="logo-small">
+                            </a>
+                        </div>
+                        <div class="nk-menu-trigger mr-n2">
+                            <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em
+                                    class="icon ni ni-arrow-left"></em></a>
+                            <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex"
+                                data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                        </div>
+                    </div><!-- .nk-sidebar-element -->
+                    <div class="nk-sidebar-element">
+                        <div class="nk-sidebar-content">
+                            <div class="nk-sidebar-menu" data-simplebar>
+                                <ul class="nk-menu">
+                                    <li class="nk-menu-heading">
+                                        <h6 class="overline-title text-primary-alt">Main</h6>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="html/superadmin/index.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-dashboard-fill"></em></span>
+                                            <span class="nk-menu-text">Dashboard</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="html/superadmin/transactions.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-file-docs"></em></span>
+                                            <span class="nk-menu-text">Transactions</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="html/superadmin/services.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-card-view"></em></span>
+                                            <span class="nk-menu-text">Services</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="html/superadmin/settlements.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-sign-kobo-alt"></em></span>
+                                            <span class="nk-menu-text">Settlements</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="html/superadmin/analytics.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-trend-up"></em></span>
+                                            <span class="nk-menu-text">Analytics</span>
+                                        </a>
+                                    </li>
+    
+                                    <!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="html/superadmin/users.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
+                                            <span class="nk-menu-text">Users</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+    
+    
+                                    <!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="html/superadmin/roles.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-account-setting-fill"></em></span>
+                                            <span class="nk-menu-text">Roles/Permissions</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+    
+                                    <li class="nk-menu-item">
+                                        <a href="html/superadmin/audit.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-chat-fill"></em></span>
+                                            <span class="nk-menu-text">Audits Trail</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                  
+                                  
+                                    <!-- <li class="nk-menu-item">
+                                        <a href="html/console/settings.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-opt-alt-fill"></em></span>
+                                            <span class="nk-menu-text">Settings</span>
+                                        </a>
+                                    </li> -->
+                                    
+                                    <!-- .nk-menu-item -->
+    
+                                    <li class="nk-menu-heading">
+                                        <h6 class="overline-title text-primary-alt">Integration</h6>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="html/index.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-dashlite-alt"></em></span>
+                                            <span class="nk-menu-text">API Documentation</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="html/components.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-layers-fill"></em></span>
+                                            <span class="nk-menu-text">Our Community</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                </ul><!-- .nk-menu -->
+                            </div><!-- .nk-sidebar-menu -->
+                        </div><!-- .nk-sidebar-content -->
+                    </div><!-- .nk-sidebar-element -->
+                </div>            </div>
             <!-- sidebar @e -->
             <!-- wrap @s -->
             <div class="nk-wrap ">
@@ -162,7 +207,7 @@
                                                             </div>
                                                             <div class="chat-info">
                                                                 <div class="chat-from">
-                                                                    <div class="name">Abu Bin Ishtiyak</div>
+                                                                    <div class="name">Providus Bank</div>
                                                                     <span class="time">4:49 AM</span>
                                                                 </div>
                                                                 <div class="chat-context">
@@ -336,8 +381,8 @@
                                                     <em class="icon ni ni-user-alt"></em>
                                                 </div>
                                                 <div class="user-info d-none d-xl-block">
-                                                    <div class="user-status user-status-active">Administator</div>
-                                                    <div class="user-name dropdown-indicator">Abu Bin Ishityak</div>
+                                                    <div class="user-status user-status-active">Super Administator</div>
+                                                    <div class="user-name dropdown-indicator">Providus Bank </div>
                                                 </div>
                                             </div>
                                         </a>
@@ -348,16 +393,16 @@
                                                         <span>AB</span>
                                                     </div>
                                                     <div class="user-info">
-                                                        <span class="lead-text">Abu Bin Ishtiyak</span>
-                                                        <span class="sub-text">info@softnio.com</span>
+                                                        <span class="lead-text">Providus Bank</span>
+                                                        <span class="sub-text">admin@providusbank.com</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="dropdown-inner">
                                                 <ul class="link-list">
-                                                    <li><a href="html/ecommerce/user-profile.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
-                                                    <li><a href="html/ecommerce/user-profile.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
-                                                    <li><a href="html/ecommerce/user-profile.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                    <li><a href="html/superadmin/user-profile.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                    <li><a href="html/superadmin/user-profile.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
+                                                    <li><a href="html/superadmin/user-profile.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
                                                     <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
                                                 </ul>
                                             </div>
@@ -406,7 +451,7 @@
                                                                 <div class="data-item" data-toggle="modal" data-target="#profile-edit">
                                                                     <div class="data-col">
                                                                         <span class="data-label">Full Name</span>
-                                                                        <span class="data-value">Abu Bin Ishtiyak</span>
+                                                                        <span class="data-value">Providus Bank</span>
                                                                     </div>
                                                                     <div class="data-col data-col-end"><span class="data-more"><em class="icon ni ni-forward-ios"></em></span></div>
                                                                 </div><!-- data-item -->
@@ -420,7 +465,7 @@
                                                                 <div class="data-item">
                                                                     <div class="data-col">
                                                                         <span class="data-label">Email</span>
-                                                                        <span class="data-value">info@softnio.com</span>
+                                                                        <span class="data-value">admin@providusbank.com</span>
                                                                     </div>
                                                                     <div class="data-col data-col-end"><span class="data-more disable"><em class="icon ni ni-lock-alt"></em></span></div>
                                                                 </div><!-- data-item -->
@@ -700,8 +745,8 @@
                                                                 <span>AB</span>
                                                             </div>
                                                             <div class="user-info">
-                                                                <span class="lead-text">Abu Bin Ishtiyak</span>
-                                                                <span class="sub-text">info@softnio.com</span>
+                                                                <span class="lead-text">Providus Bank</span>
+                                                                <span class="sub-text">admin@providusbank.com</span>
                                                             </div>
                                                             <div class="user-action">
                                                                 <div class="dropdown">
@@ -786,7 +831,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="form-label" for="full-name">Full Name</label>
-                                        <input type="text" class="form-control form-control-lg" id="full-name" value="Abu Bin Ishtiyak" placeholder="Enter Full name">
+                                        <input type="text" class="form-control form-control-lg" id="full-name" value="Providus Bank" placeholder="Enter Full name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
